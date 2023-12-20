@@ -10,5 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'ng-project1';
+  title = 'angular demo';
+  date = new Date();
+  name = "Laxmi Kanth";
 }
