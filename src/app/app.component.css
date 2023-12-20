@@ -1,3 +1,68 @@
 .logo{
-    border-radius: 5px;
+    border-radius: 500px;
+ 
+    
+}
+
+.div-logo{
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    row-gap: 10px;
+    
+    
+}
+
+.heading{
+    color: white;
+}
+
+.input{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;    
+    font-size: 20px;
+    font-family: fantasy;
+    border: 5px solid blue;
+}
+
+.add-btn{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+li div{
+    background-color: white;
+    border: 2px solid green;
+    width: 400px;
+}
+
+li p,li input{
+    display: inline-block;
+    margin: 10px;
+}
+
+li button{
+    margin-left:  50px;
 }
